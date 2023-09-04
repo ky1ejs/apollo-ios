@@ -1,8 +1,6 @@
 import Foundation
 import OrderedCollections
 
-// Only available on macOS
-#if os(macOS)
 
 /// A class to facilitate running code generation
 public class ApolloCodegen {
@@ -609,5 +607,3 @@ public class ApolloCodegen {
   }
 
 }
-
-#endif

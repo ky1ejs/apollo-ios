@@ -1,6 +1,4 @@
 import Foundation
-// Only available on macOS
-#if os(macOS)
 
 /// A wrapper to facilitate downloading a GraphQL schema.
 public struct ApolloSchemaDownloader {
@@ -450,4 +448,3 @@ public struct ApolloSchemaDownloader {
     try write(sdlSchema, path: configuration.outputPath, rootURL: rootURL)
   }
 }
-#endif
